@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="POC Tests">
+
+    <listeners>
+        <listener class-name="common.MyListeners"/>
+    </listeners>
+
+    <test name="Guru 99 sample test scripts">
+        <classes>
+            <class name="tests.TestScripts">
+            </class>
+        </classes>
+    </test>
+</suite>
